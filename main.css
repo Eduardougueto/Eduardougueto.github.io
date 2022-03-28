@@ -92,6 +92,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* bottom part */
 
 /* responsive */
+@media only screen and (max-width: 510px) {
+    #main-container {
+        width: min-content;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #pic_introduction {
         display: grid;
