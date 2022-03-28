@@ -1,0 +1,147 @@
+body {
+    margin:0;
+    padding:0;
+    font-size: 14px;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+li {
+   list-style: none;
+}
+
+header {
+    height:110px;
+    width:100%;
+    /* background-color: rgb(30, 30, 139); */
+}
+
+header nav {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.KBLA {
+    width:200px;
+    height:60px;
+ 
+}
+header nav .KBLA img {
+    width:99px;
+    height:85px;
+    border: 3px dotted rgb(168, 99, 49);
+    margin-left: 30px;
+}
+header nav .KBLA img:hover {
+    background-color: rgb(139, 85, 31);
+}
+header nav .nav-order {
+    width:290px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    justify-self:right;
+}
+header nav .nav-order a {
+    margin-right: 15px;
+    color:rgb(218, 1, 134);
+    font-size: 1.5rem;
+}
+header nav .nav-order a:hover {
+    background-color: firebrick;
+    color:white;
+    border-radius: 3px;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+main .search-imgg {
+    width: 560px;
+    margin: 0 auto;
+}
+main .search-imgg img {
+    width: 470px;
+}
+
+main .rewriting {
+   width:600px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   border-radius: 100px;
+}
+main .rewriting .containerr {
+    width: 600px;
+    border-radius: 100px;
+    border: 1px solid rgb(41, 56, 41);
+    justify-content: center;
+    align-items: center;
+}
+main .rewriting input {
+    border: none;
+    outline:none;
+    width:500px;
+    height:30px;
+}
+main .rewriting:hover {
+box-shadow: 5px 5px 5px grey;
+
+}
+main .contain-button {
+    width: 500px;
+    margin:0 auto;
+}
+main .contain-button div {
+    display: inline-block;
+}
+.contain-button button {
+    height:30px;
+    background-color: rgb(232, 233, 232);
+    color: rgb(58, 0, 29);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    margin-right: 30px;
+    padding: 0 15px;
+}
+.contain-button button:hover {
+    border: 1px solid firebrick;
+}
+
+footer {
+    width:100%;
+    height:90px;
+    position: absolute;
+    bottom:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(234, 240, 253);
+}
+footer ul {
+    display: flex;
+    margin-right: 10px;
+}
+footer .down-left {
+    justify-self: left;
+}
+footer .down-left a:hover {
+    background-color: indigo;
+    color: rgb(244, 230, 255);
+}
+footer .down-right {
+    justify-self: right;
+}
+footer .down-right a:hover {
+    color: rgb(225, 173, 255);
+    background-color: rgb(89, 114, 69);
+}
+footer ul li a {
+    margin: 15px;
+}

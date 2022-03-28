@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(192, 192, 255);
+}
+
+#container1 {
+    padding: 10px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(126, 126, 214);
+}
+#container1 h1 {
+    padding: 9px;
+    color:  rgb(242, 242, 255);
+    border: 1px solid rgb(242, 242, 255);
+}
+
+#container1 .label1, .label2 {
+    color: rgb(250, 239, 255);
+    font-size: 1.2rem;
+    margin-right: 6px;
+    /* border: 1px solid saddlebrown; */
+}
+
+.inputB1, .inputB2 {
+    text-align: center;
+    width: 175px;
+    background-color: rgb(25, 25, 70);
+    color: aliceblue;
+    border: none;
+    border-radius: 25px;
+}
+.inputB1:hover {background-color: rgb(101, 101, 212);} .inputB2:hover{background-color: rgb(101, 101, 212);}
+
+#firstBt {
+    margin: 25px 0 20px 0;
+    background-color: rgb(255, 224, 224);
+    border: none;
+    padding: 5px;
+    border-radius: 25px;
+}
+#firstBt:hover {
+    background-color: rgb(223, 195, 172);
+    color: rgb(73, 33, 1);
+}
+
+#mostrarSueldoMensual {
+    width: 55%;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    color: rgb(220, 250, 255);
+}
+
+/* SECOND CONTAINER */
+
+#container2 {
+    width: 85%;
+    margin: 50px auto;
+}

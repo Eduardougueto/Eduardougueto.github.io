@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    background-color: #130030;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23ff5b06' fill-opacity='0.17'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+a {
+    text-decoration: none;
+}
+
+#main-container {
+    height: auto;
+    width: 90vw;
+    margin: 50px auto 50px;
+    padding: 50px;
+    /* background-color: rgb(207, 184, 154); */
+    /* 11 */
+    background-color: #99a4c6;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%2300473d' fill-opacity='0.09'%3E%3Cpath fill-rule='evenodd' d='M5 3.59L1.46.05.05 1.46 3.59 5 .05 8.54l1.41 1.41L5 6.41l3.54 3.54 1.41-1.41L6.41 5l3.54-3.54L8.54.05 5 3.59zM17 2h24v2H17V2zm0 4h24v2H17V6zM2 17h2v24H2V17zm4 0h2v24H6V17z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.port_indicator {
+    font-size: 6rem;
+}
+
+
+
+#pic_introduction {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(208, 255, 229); */
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.left_side {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aliceblue; */
+    background-image: url(./img/RC.2020.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.right_side {
+    padding: 100px 0 0 15px;
+    /* background-color: aliceblue; */
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+/* ABOUT - COURSE */
+#info_get {
+    width: 100%;
+    height: 85px;
+    border: 1px solid wheat;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    text-align: center;
+}
+#info_get a {
+    padding: 2px;
+    font-size: 1.5rem;
+    color: rgb(231, 224, 255);
+    background-color: rgb(8, 14, 75);
+    border-radius: 15px;
+    /* margin-right: 100px; */
+}
+#info_get a:hover {
+    color: rgb(242, 190, 255);
+    background-color: rgb(0, 9, 107);
+}
+
+/* ABOUT - COURSE */ 
+
+/* bottom part */
+#bottom-img {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/RC.2..2020.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* bottom part */
