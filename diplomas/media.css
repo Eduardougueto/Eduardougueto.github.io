@@ -1,6 +1,10 @@
  
 @media only screen and (max-width: 600px) {
-
+    .heich {
+        background-color: #9e9e9e;
+        height: fit-content;
+        text-align: center;
+    }
     
     #container-dp {
         padding: 0 auto;
