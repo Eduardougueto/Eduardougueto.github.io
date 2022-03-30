@@ -20,25 +20,12 @@ header {
 }
 
 header nav {
-  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  /* background-color: firebrick; */
+    display: flex;
+    justify-content:end;
 }
 
-.KBLA {
-    width:200px;
-    height:60px;
- 
-}
-header nav .KBLA img {
-    width:99px;
-    height:85px;
-    border: 3px dotted rgb(168, 99, 49);
-    margin-left: 30px;
-}
-header nav .KBLA img:hover {
-    background-color: rgb(139, 85, 31);
-}
+
 header nav .nav-order {
     width:290px;
     height: auto;
@@ -46,7 +33,7 @@ header nav .nav-order {
     list-style: none;
     justify-content: center;
     align-items: center;
-    justify-self:right;
+    /* justify-self:right; */
 }
 header nav .nav-order a {
     margin-right: 15px;
@@ -61,7 +48,7 @@ header nav .nav-order a:hover {
 
 main {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 main .search-imgg {
     width: 560px;
@@ -86,13 +73,19 @@ main .rewriting .containerr {
 }
 main .rewriting input {
     border: none;
+    border-radius: 100px;
     outline:none;
-    width:500px;
+    width:90%;
     height:30px;
+    padding-left: 25px;
+}
+main .rewriting input:hover {
+    background-color: rgb(225, 226, 228);
+    /* box-shadow: 5px 5px 5px grey; */
 }
 main .rewriting:hover {
-box-shadow: 5px 5px 5px grey;
-
+    background-color:rgb(225, 226, 228);
+    /* box-shadow: 5px 5px 5px grey; */
 }
 main .contain-button {
     width: 500px;
