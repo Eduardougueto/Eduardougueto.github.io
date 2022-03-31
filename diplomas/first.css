@@ -6,6 +6,11 @@
 }
 a {
     text-decoration:dashed;
+    padding: 3px;
+    font-size: 1.5rem;
+    color: rgb(231, 224, 255);
+    background-color: rgb(8, 14, 75);
+    border-radius: 15px;
 }
 
 body {
@@ -41,6 +46,14 @@ h2 {
     text-align: center;
 }
 
+h2 a:hover {
+    color: rgb(242, 190, 255);
+    background-color: rgb(0, 9, 107);
+}
+.heich a:hover {
+    color: rgb(242, 190, 255);
+    background-color: rgb(0, 9, 107);   
+}
 
 /* old one */
 
