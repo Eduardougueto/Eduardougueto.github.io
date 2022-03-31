@@ -4,7 +4,7 @@ body {
 
 #container1 {
     padding: 10px;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgb(126, 126, 214);
 }
@@ -50,9 +50,16 @@ body {
     color: rgb(220, 250, 255);
 }
 
-/* SECOND CONTAINER */
-
-#container2 {
-    width: 85%;
-    margin: 50px auto;
+.info-para {
+    padding: 25px;
+    background-color: aliceblue;
+    width: 75%;
+    margin: 25px auto;
+}
+.info-para p {
+    color: rgb(46, 4, 65);
+    font-size: 1.2rem;
+}
+h2 {
+    text-align: center;
 }

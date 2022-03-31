@@ -33,7 +33,8 @@ const tasa$ = 4.30;
 
         const mostrarSueldoMensual = document.getElementById("mostrarSueldoMensual");
 
-        mostrarSueldoMensual.innerText = "Tu sueldo dentro de " + salaryValue + " meses será de " +  multiplicarSueldo_Mes + " dólares.";
+        mostrarSueldoMensual.innerText = "You're salary within " + salaryValue + " months will be " +  multiplicarSueldo_Mes + " $.";
+        // mostrarSueldoMensual.innerText = "Tu sueldo dentro de " + salaryValue + " meses será de " +  multiplicarSueldo_Mes + " dólares.";
 
         // // //
         

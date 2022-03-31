@@ -11,29 +11,38 @@
 
 <div id="container1">
 
-<h1> Función interactiva.</h1>
+    <!-- OLD -->
+    <!-- <h1> Función interactiva.</h1> -->
+<!-- ACTUAL -->
+<h1> First function created. </h1>
 
-<label for="inputBs" class="label1"> Escribe el sueldo que recibes al mes en bolivares para transformarlo a dólares: </label> 
-<input class="inputB1"  id="inputBs" type="number"> bs. <br>
 
-<label for="inputSalary" class="label2"> Escribe la cantidad de meses, para saber cuanto harías en ese tiempo. </label>
+<label for="inputBs" class="label1">
+     Write down the monthly salary that you receive in BOLIVARES: </label> 
+     <!-- Escribe el sueldo que recibes al mes en bolivares para transformarlo a dólares: -->
+<input class="inputB1"  id="inputBs" type="number"> BS. <br>
+
+<label for="inputSalary" class="label2">
+     Write down the quantity of months, to know how much youl'll do in that time </label>
+     <!--  Escribe la cantidad de meses, para saber cuanto harías en ese tiempo. -->
 <input  class="inputB2" id="inputSalary" type="number">
 
-<button type="button" onclick="onClickButtonSalaryMonth()" id="firstBt" > Calcula tu salario en meses </button>
+<button type="button" onclick="onClickButtonSalaryMonth()" id="firstBt" >
+     Calculate the salary you'll receive in months </button>
+<!-- Calcula tu salario en meses -->
 
 <p id="mostrarSueldoMensual"></p>
 </div>
 
-
-<div id="container2">
- 
-    <label for=""> Mes actual </label>
-    <input type="text" name="" id="" placeholder="conocer meses restantes">
-
-    <button> Saber cantidad de Meses. </button>
-  
-
+<div class="info-para">
+<p> For understand this little project you must see the way we generate income in Venezuela. 
+    <br> Most people receive their salary in Bolivares, 4.30 BS is equal to 1$ to the day, this varies depending on the market of the day and if the goverment makes movements. 
+     This calculator is using the latest rate.
+    <br> For a Venezuelan worker to know how much he would do in $, he needs to divide the amount of BS between the dolar rate.  
+</p>
 </div>
+
+<h2> <a href="https://eduardougueto.github.io/aboutpage/about.html"> About page </a></h2>
 
 <script src="nine.03.js"></script>
 </body>
