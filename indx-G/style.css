@@ -1,11 +1,12 @@
 body {
     margin:0;
     padding:0;
-    font-size: 14px;
+    font-size: 16px;
 }
 html {
     font-size: 62.5%;
 }
+
 a {
     text-decoration: none;
 }
@@ -48,14 +49,13 @@ header nav .nav-order a:hover {
 
 main {
     text-align: center;
-    margin-top: 10px;
 }
 main .search-imgg {
     width: 560px;
     margin: 0 auto;
 }
 main .search-imgg img {
-    width: 470px;
+    width: 430px;
 }
 
 main .rewriting {
@@ -84,7 +84,7 @@ main .rewriting input:hover {
     /* box-shadow: 5px 5px 5px grey; */
 }
 main .rewriting:hover {
-    background-color:rgb(225, 226, 228);
+    background-color:rgb(216, 216, 216);
     /* box-shadow: 5px 5px 5px grey; */
 }
 main .contain-button {
@@ -115,14 +115,18 @@ footer {
     bottom:0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(234, 240, 253);
+    background-color:rgb(204, 204, 204);
 }
 footer ul {
     display: flex;
     margin-right: 10px;
 }
 footer .down-left {
+    font-size: 1.8rem;
     justify-self: left;
+}
+footer a {
+    color: rgb(0, 27, 51);
 }
 footer .down-left a:hover {
     background-color: indigo;
