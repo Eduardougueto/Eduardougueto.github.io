@@ -17,11 +17,14 @@ a {
     width: 95%;
     height: 70vh;
     display: grid;
-    grid-auto-rows: minmax(450px, 600px);
+    /* grid-auto-rows: minmax(450px, 600px); */
     grid-template-columns: repeat(2, 2fr);
     gap: 25px;
 }
 .muestra {
-    background-color: #130030;
     width: 100%;
     }
+
+.muestra img {
+    max-width:100%;
+}
