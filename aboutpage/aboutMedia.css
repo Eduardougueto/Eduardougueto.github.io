@@ -1,0 +1,10 @@
+@media only screen and (max-width: 510px) {
+    #only-container {
+        margin: 90px auto;
+        width: 95%;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
