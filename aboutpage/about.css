@@ -42,3 +42,15 @@ h2 {
     color: rgb(242, 190, 255);
     background-color: rgb(0, 9, 107);
 }
+
+#curriculum-cont {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#curriculum-cont button {
+    background-color: rgb(0, 5, 62);
+    color: rgb(231, 224, 255);
+    border-radius: 40px;
+    padding: 7px;
+
+}
