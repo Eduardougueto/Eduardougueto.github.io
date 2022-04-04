@@ -17,7 +17,7 @@ a {
     width: 95%;
     height: 70vh;
     display: grid;
-    /* grid-auto-rows: minmax(450px, 600px); */
+    /* grid-auto-rows: 200px; */
     grid-template-columns: repeat(2, 2fr);
     gap: 25px;
 }
@@ -45,6 +45,7 @@ h2 {
 
 #curriculum-cont {
     text-align: center;
+    margin-top: 300px;
     margin-bottom: 25px;
 }
 #curriculum-cont button {
